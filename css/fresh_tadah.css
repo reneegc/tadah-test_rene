@@ -7,6 +7,11 @@
 .fresh_tadah .item_fresh_tadah{
     max-width: 50%;
 }
+.fresh_tadah .item_fresh_tadah{
+    background-image: url(/img/Vector9.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .fresh_tadah .image_fresh{
     max-width: 100%;
 }
@@ -31,7 +36,7 @@
     line-height: 26px;
     letter-spacing: 0em;
     text-align: left;
-    margin-top: 29px;
+    margin-top: 29 px;
 }
 
 @media (max-width: 1140px) {
@@ -46,9 +51,24 @@
     .fresh_tadah .image_fresh{
         max-width: none;
         object-fit: cover;
+        
     }
     .fresh_tadah .title_fresh, .fresh_tadah .text_fresh{
         max-width: 90%;
         text-align: center;
+        margin: auto;
+    }
+    .fresh_tadah .title_fresh{
+        margin-top: 49px;
+    }
+    .fresh_tadah .text_fresh{
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 490px) {
+    .fresh_tadah .title_fresh{
+        line-height: 36.57px;
+        font-size: 30px;
     }
 }
