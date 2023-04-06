@@ -1,0 +1,63 @@
+.experience_tadah .experience_content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.experience_tadah .item_experience_tadah{
+    min-width: 25%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px 18px 45px;
+}
+
+.experience_tadah .item_experience_tadah:nth-child(1){
+    background-color: #F7D633;
+}
+.experience_tadah .item_experience_tadah:nth-child(2){
+    background-color: #E12843;
+}
+.experience_tadah .item_experience_tadah:nth-child(3){
+    background-color: #72CEE8;
+}
+.experience_tadah .item_experience_tadah:nth-child(4){
+    background-color: #F47D34;
+}
+
+
+.experience_tadah .image_experience{
+    width: 324px;
+}
+ 
+.experience_tadah .title_experience{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 24.77px;
+}
+
+.experience_tadah .link_experience{
+    display: flex;
+    margin-top: 30.23px;
+    padding: 15px 28px;
+    border-radius: 10px;
+    background-color: #2E190F;
+    color: #fff;
+}
+
+@media (max-width: 1080px) {
+    .experience_tadah .item_experience_tadah{
+        min-width: 50%;
+    }
+}
+
+@media (max-width: 720px) {
+    .experience_tadah .item_experience_tadah{
+        min-width: 100%;
+    }
+}
