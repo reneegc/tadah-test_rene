@@ -1,0 +1,68 @@
+.chick_tadah{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 69px;
+    overflow: hidden;
+    background-image: url(/img/wood_bg\ 1\ \(1\).png);
+    padding: 107px 10px 78px;
+}
+
+.chick_tadah .title_chick{  
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #F47D34;
+} 
+.chick_tadah .text_description_chick{
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 36.57px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+}
+
+
+.chick_tadah .content_description_chick{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 54px;
+}
+
+.chick_tadah .description_chick{
+    min-width: 386px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.chick_tadah .description_chick:nth-child(2){
+    padding: 0 50px;
+}
+
+.chick_tadah .autor_description{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+}
+
+.chick_tadah .separator{
+    margin-top: 20px;
+}
+
+@media (max-width: 490px) {
+    .chick_tadah .title_chick{
+        padding: 0 8px;
+    }
+
+    .chick_tadah .description_chick:nth-child(2){
+        padding: 0 25px;
+    }
+}
