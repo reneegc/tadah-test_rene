@@ -1,0 +1,108 @@
+.footer_tadah{
+    display: flex;
+    justify-content: space-between;
+    max-height: 477px;
+    background-color: #F47D34;
+    position: relative;
+    z-index: -1;
+}
+.footer_tadah .item_footer_tadah:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_tadah .title_footer, 
+.link_footer{
+    color: #fff;
+}
+
+.footer_tadah .title_footer{
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 51px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 44px;
+}
+
+.footer_tadah .try_footer{
+    color: #2E190F;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    background-color: #F7D633;
+    padding: 15px 37px;
+    border-radius: 10px;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 52px;
+}
+
+.footer_tadah .social_network{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 104px;
+}
+.footer_tadah .facebook_footer{
+    margin-right: 20px;
+}
+.footer_tadah .link_content_footer{
+    margin-left: -30px;
+    margin-bottom: 28.83px;
+    padding: 0 15px;
+    display: flex;
+    justify-content: center;
+}
+.footer_tadah .link_footer{
+    margin-left: 30px;
+}
+
+.footer_tadah .item_footer_tadah:nth-child(1), 
+.footer_tadah .item_footer_tadah:nth-child(3){
+    min-width: 380px;
+    margin-top: -110px;
+} 
+
+.footer_tadah .image_left, .footer_tadah .image_rigth{
+    min-width: 100%;
+}
+
+.footer_tadah .image_rigth{
+    margin-top: -50px;
+}
+.footer_tadah .copy{
+    margin-bottom: 25.62px;
+}
+@media (max-width: 1141px) {
+    .footer_tadah{
+        flex-direction: column;
+        max-height: 950px;
+    }
+    .footer_tadah .item_footer_tadah:nth-child(1), 
+    .footer_tadah .item_footer_tadah:nth-child(3){
+    display: none;
+    }
+    .footer_tadah .item_footer_tadah:nth-child(2){
+        min-width: 100%;
+    }
+    .footer_tadah_mobile{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 47px;
+    }
+    .footer_tadah_mobile .item_footer_tadah_mobile {
+        max-width: 230px;
+    }
+
+    .footer_tadah_mobile .image_left,
+    .footer_tadah_mobile .image_rigth{
+        max-width: 100%;
+    }
+    .footer_tadah_mobile .image_rigth{
+        margin-top: -39px;
+    }
+}
