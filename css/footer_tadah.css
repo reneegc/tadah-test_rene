@@ -2,9 +2,10 @@
     display: flex;
     justify-content: space-between;
     max-height: 477px;
-    background-color: #F47D34;
     position: relative;
     z-index: -1;
+    background: url(/img/tadah_logo_transparent.png) no-repeat 55% bottom, url(/img/chickpeas_bg\ 1.png) no-repeat bottom, #F47D34;
+
 }
 .footer_tadah .item_footer_tadah:nth-child(2){
     display: flex;
@@ -77,6 +78,9 @@
 .footer_tadah .copy{
     margin-bottom: 25.62px;
 }
+.footer_tadah_mobile{
+    display: none;
+}
 @media (max-width: 1141px) {
     .footer_tadah{
         flex-direction: column;
@@ -97,12 +101,35 @@
     .footer_tadah_mobile .item_footer_tadah_mobile {
         max-width: 230px;
     }
-
+    
     .footer_tadah_mobile .image_left,
     .footer_tadah_mobile .image_rigth{
         max-width: 100%;
     }
     .footer_tadah_mobile .image_rigth{
         margin-top: -39px;
+    }
+}
+
+@media (max-width: 490px) {
+    .footer_tadah{
+        background: url(/img/tadah_logo_transparent.png) no-repeat 100% 63%, url(/img/chickpeas_bg\ 1.png) no-repeat top, #F47D34;
+        background-size: 100%, 240%;
+        max-height: 1000px;
+    }
+    .footer_tadah .link_content_footer{
+        margin-left: -15px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer_tadah .link_footer{
+        margin-left: 0;
+        margin-top: 38px;
+    }
+    .footer_tadah .link_footer:nth-child(1){
+        margin-top: 0;
+    }
+    .footer_tadah .social_network{
+        margin-bottom: 62px;
     }
 }
