@@ -5,6 +5,7 @@
     max-width: 100%;
     display: flex;
     justify-content: center;
+    
 }
 .high_tadah .banner_high,
 .high_tadah .banner_high_2,
@@ -20,6 +21,7 @@
 
 .high_tadah .vaggie_high_image{
     object-fit: cover;
+    min-width: 100%;
 }
 .high_tadah .banner_high:nth-child(1){
     background-color: #72CEE8;
@@ -34,6 +36,7 @@
     justify-content: center;
     padding: 0 20px;
 }
+
 .high_tadah .title_banner_high,
 .high_tadah .text_banner_high, 
 .high_tadah .text_mobile_high, 
@@ -49,7 +52,8 @@
 
 }
 .high_tadah .text_mobile_high, 
-.high_tadah .title_mobile_high{
+.high_tadah .title_mobile_high, 
+.high_tadah .logo_mobile_bagde{
     display: none;
 }
 .high_tadah .text_banner_high, 
@@ -124,5 +128,15 @@
     }
     .high_tadah .sharktank_img{
         min-height: 380px;
+    }
+    .high_tadah .logo_mobile_bagde{
+        display: flex;
+        margin-top: 28px;
+        margin-bottom: 35px;
+    }
+    .high_tadah .change{
+        margin-top: 33px;
+        margin-bottom: 16px;
+        max-width: 256px;
     }
 }
