@@ -1,0 +1,126 @@
+.hero_tadah{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: auto;
+    background: url(/img/red_halo_hero.png) no-repeat right, #F7D633;
+    min-height: 772px;
+}
+
+.hero_tadah .content_tadah_hero{
+    min-width: 60%;
+    display: flex;
+    flex-direction: column;
+    background-image: url(/img/image_crispetas_hero.png);
+    background-repeat: no-repeat;
+    background-position: 5% 0;
+    background-size: 821.45px 772px;
+}
+.hero_tadah .title_hero{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 73px;
+    letter-spacing: 0em;
+    text-align: left;
+    max-width: 549px;
+    margin: 156px 0 30px;
+}
+
+.hero_tadah .title_hero,
+.hero_tadah .try_hero{
+    margin-left: 20%;
+}
+
+.hero_tadah .try_hero,
+.hero_tadah .try_hero_mobile{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 17.7px 25.50px;
+    border-radius: 10px;
+    background-color: #E12843;
+    max-width: 285px;
+}
+
+.hero_tadah .try_hero_mobile{
+    display: none;
+}
+
+.hero_tadah .image_hero_tadah{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    min-width: 40%;
+}
+
+.hero_tadah .wrap_hero_img{
+    max-width: 641px;
+    max-height: 657.16px ;
+}
+.hero_tadah .spicy_hero_image{
+    position: absolute;
+    bottom: -5%;
+    right: 0;
+}
+
+@media (max-width: 1364px) {
+    .hero_tadah{
+        flex-direction: column;
+    }
+}
+@media (max-width: 650px) {
+    .hero_tadah{
+        justify-content: flex-start;
+        min-height: 849px;
+        background-image: url(/img/image_mobile_crispetas.png);
+        background-repeat: no-repeat;
+        background-size: 576px 612px;
+        background-position: 18% 5%;
+    }
+    .hero_tadah .try_hero{
+        display: none;
+    }
+    .hero_tadah .content_tadah_hero{
+        background: none;
+    }
+    .hero_tadah .title_hero{
+        font-size: 40px;
+        max-width: 384px;
+        line-height: 51px;
+        margin-left: 15px;
+        margin-top: 113px;
+        margin-bottom: 0;
+    }
+    .hero_tadah .image_hero_tadah{
+        max-width: 100%;
+        margin-top: -15px;
+    }
+    .hero_tadah .wrap_hero_img{
+        max-width: 354px;
+        max-height: 362px;
+    }
+    .hero_tadah .spicy_hero_image{
+        max-width: 343px;
+        max-height: 132px;
+        bottom: 18%;
+    }
+    .hero_tadah .spicy_image{
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 389px) {
+    
+    .hero_tadah .try_hero_mobile{
+        display: flex;
+        margin: 120px auto 44px;
+        min-width: 290px;
+        
+    }
+}

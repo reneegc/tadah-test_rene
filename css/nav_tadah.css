@@ -107,6 +107,7 @@
         background-color: #F47D34;
         position: absolute;
         left: -100%;
+        z-index: 100;
     }
     .mobile_nav_bar .links_tadah_mobile{
         color: #fff;
